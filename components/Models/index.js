@@ -5,5 +5,5 @@ const Post = require('./Post')
 module.exports = {
     Type,
     User,
-    Post
+    Post,
 }
