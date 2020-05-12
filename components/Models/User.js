@@ -10,10 +10,6 @@ class User extends Model {
     posts() {
         return this.hasMany(Type.Post)
     }
-
-    test() {
-        return this.belongsTo(Type.Post)
-    }
 }
 
 module.exports = User
